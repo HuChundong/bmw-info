@@ -2,7 +2,7 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: blue; icon-glyph: circle;
 // BMW Info Widget
-//
+// based on BMW Action, Copyright by @thkl
 // Copyright (C) 2021 by me <lobermeier@me.com>
 //
 // Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
