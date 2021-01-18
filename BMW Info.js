@@ -334,7 +334,7 @@ async function getLocationName(lat,lng) {
   let data = await req.loadJSON() 
   if (data) {  
     let adrStr = data.address.town 
-    adrStr += data.address.road.length ? ", " + data.address.road : ""
+    adrStr += data.address.road ? ", " + data.address.road : ""
     adrStr += data.address.house_number ? " " + data.address.house_number : ""
     adrStr += data.address.amenity ? ", " + data.address.amenity : ""
     return adrStr
